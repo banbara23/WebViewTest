@@ -5,5 +5,5 @@ package com.example.k_ikemura.webviewtest;
  */
 
 public class Const {
-    public static final String URL = "http://ec2.images-amazon.com/images/P/B0041IRP32.01.IN01._SCRMZZZZZZ_SY960_CR340,0,640,960_.jpg";
+    public static final String URL = "https://www.amazon.co.jp/";
 }

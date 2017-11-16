@@ -2,9 +2,9 @@ package com.example.k_ikemura.webviewtest;
 
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Bundle;
 import android.support.customtabs.CustomTabsIntent;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 
 public class TopActivity extends AppCompatActivity {
@@ -21,8 +21,7 @@ public class TopActivity extends AppCompatActivity {
         customTabsIntent.launchUrl(this, Uri.parse(Const.URL));
     }
 
-
     public void onWebViewClick(View view) {
-        startActivity(new Intent(this,WebViewActivity.class));
+        startActivity(new Intent(this, WebViewActivity.class));
     }
 }
